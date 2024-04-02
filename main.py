@@ -50,8 +50,8 @@ def generate_random_number(max_val):
             return result
 
 def main():
-    # Get the key size from the user
-    key_size = 256  # in bits
+    # Prompt the user for the desired key size
+    key_size = int(input("Enter the desired key size in bits: "))
 
     # Generate a large prime number p using the Miller-Rabin primality test
     p = generate_large_prime(key_size)
@@ -86,3 +86,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
