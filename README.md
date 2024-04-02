@@ -42,7 +42,7 @@ You can install pycryptodome via pip:
 
 ## Notes
 
-- The key size used in this implementation is 256 bits for enhanced security.
+- The key size used in this implementation can go up to 2056 bits
 - The program uses the Miller-Rabin primality test to generate large prime numbers for the encryption scheme.
 - Make sure to keep your private key (`x`) secure and do not share it with anyone.
   
